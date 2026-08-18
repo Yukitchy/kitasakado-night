@@ -20,9 +20,10 @@
     -webkit-font-smoothing:antialiased;
     font-size:15px;
   }
-  body,p,li,td,th,div,b,h1,h2,h3,summary{word-break:auto-phrase;line-break:strict;overflow-wrap:anywhere}
+  body,p,li,td,th,div,b,h1,h2,h3,summary{word-break:auto-phrase;line-break:strict;overflow-wrap:break-word}
+  a{overflow-wrap:anywhere}
   h1,h2,h3,summary{text-wrap:balance;line-height:1.4}
-  p{text-wrap:pretty}
+  p,li{text-wrap:pretty}
   .wrap{max-width:720px;margin:0 auto;padding:0 18px;position:relative;z-index:1}
 
   header{padding:44px 0 28px;position:relative;overflow:hidden}
